@@ -1,4 +1,4 @@
-# Project - SBES2021-Interplay of Smells LC/CC/DC
+# Project - SBES2021-Interplay of Smells LC/CC/DC 
 
 This is the replication package for the paper: `On the Interplay of Smells Large Class, Complex Class and Duplicate Code`.
 
