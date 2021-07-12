@@ -52,31 +52,6 @@ MountAndRun <- function(data, text, Left, Right) {
 
 
 
-```{r}
-# setwd("E:/temp/GephiToolkit/org.gephi.toolkit.demos/")
-# system <- list("ArgoUML","Cassandra","Lucene","Hadoop","Ant")
-# for (p in system) {
-#   DataSet <- read_excel("DataAllW2.xlsx", sheet = p);
-
-#   DataRQ1.1<-DataSet[which(DataSet$Color=="RED" | DataSet$Color=="BLUE"),]
-#   MountAndRun(DataRQ1.1, paste("RQ 1.1 - ",p), "Se tem Clone", "Color")
-
-#   DataRQ1.2<-DataSet[which(DataSet$Color=="RED" | DataSet$Color=="GREEN"),]
-#   MountAndRun(DataRQ1.2, paste("RQ 1.2 - ",p), "Se tem Clone", "Color")
-
-#   DataRQ2.1<-DataSet[DataSet$Color=="BLUE",]
-#   MountAndRun(DataRQ2.1, paste("RQ 2.1 - ",p), "Se tem Clone", "TypeII")
-
-#   DataRQ2.2<-DataSet[DataSet$Color=="GREEN",]
-#   MountAndRun(DataRQ2.2, paste("RQ 2.2 - ",p), "Se tem Clone", "TypeII")
-
-#   DataRQ2.3<-DataSet[DataSet$Color=="RED",]
-#   MountAndRun(DataRQ2.3, paste("RQ 2.3 - ", p, " - ★ Model based on the intensity of the smell Complex Class") , "Se tem Clone", "TypeII")
-#   MountAndRun(DataRQ2.3, paste("RQ 2.3 - ", p, " - ⊘ Model considering the intensity of the smell Large Class"), "Se tem Clone", "TypeIII")
-# }
-```
-
-
 
 ```{r}
 # Field HasClone:
@@ -92,7 +67,6 @@ MountAndRun <- function(data, text, Left, Right) {
 #          L1 - LargeClass   at low  level of intensity
 #          L2 - LargeClass   at high level of intensity
 
-setwd("E:/temp/GephiToolkit/org.gephi.toolkit.demos/")
 system <- list("ArgoUML","Cassandra","Lucene","Hadoop","Ant")
 for (p in system) {
   DataSet <- read_excel("DataAllW2V2.xlsx", sheet = p);
