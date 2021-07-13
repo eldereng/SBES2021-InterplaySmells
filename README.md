@@ -26,7 +26,7 @@ b) R Markdown 1.4 or higher avaliable in: https://rmarkdown.rstudio.com/
 
 ## Authors
 
-* **Elder Vicente de Paulo Sobrinho** - *Initial work and author* 
+* **Elder Vicente de Paulo Sobrinho** - *Author* 
 * **Marcelo de Almeida Maia** - *Advisor* 
 
 
