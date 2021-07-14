@@ -2,6 +2,10 @@
 
 This is the replication package for the paper: `On the Interplay of Smells Large Class, Complex Class and Duplicate Code`.
 
+
+[![DOI](https://zenodo.org/badge/385339510.svg)](https://zenodo.org/badge/latestdoi/385339510)
+
+
 ## Getting Started
 
 Download the files to your computer and check the prerequisites to reproduce the results.
