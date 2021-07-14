@@ -17,7 +17,7 @@ a) R Project 4.0.4 or higher avaliable in: https://www.r-project.org/ Packages:
 b) R Markdown 1.4 or higher avaliable in: https://rmarkdown.rstudio.com/
 
 
-## Section 4. EMPIRICAL STUDY RESULTS
+## EMPIRICAL STUDY RESULTS
 
 * Run the file `RCode-Markdown.Rmd` on R Markdown.
 
